@@ -7,6 +7,12 @@ body {
   overflow-x: hidden;
 }
 
+.flex-center-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 // Typography
 h1 {
   font-family: 'Rubik', sans-serif;

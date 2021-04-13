@@ -2,11 +2,18 @@
   <div>
     <div class="steel-bg">
       <ConfigIntro />
-      <ConfigQuestions />
+      <ConfigQuestions
+        :selectDoorType="selectDoorType"
+        :selectAssembly="selectAssembly"
+        :selectSelfHealing="selectSelfHealing"
+        :selectStainlessSteel="selectStainlessSteel"
+        :selectWindLoad="selectWindLoad"
+        @select-width="selectWidth"
+        @select-height="selectHeight"
+      />
     </div>
-    <ConfigResults />
+    <ConfigResults :productsArray="productsArray" />
     <ConfigContact />
-    <button>Click me</button>
   </div>
 </template>
 
@@ -29,14 +36,71 @@ export default {
   data() {
     return {
       products: [],
+      productsArray: [],
+      selectors: {
+        type: 'A',
+        width: 2000,
+        height: 2000,
+        assemblyPosition: 'left',
+        selfHealing: true,
+        stainlessSteel: true,
+        windLoad: 4,
+      },
     };
   },
-  methods: {},
+  methods: {
+    selectDoorType(value) {
+      // const setFilter = this.products.filter((door) => door.type === value);
+      console.log('Door Type:', value);
+      this.selectors.type = value;
+      filterResults(this);
+    },
+    selectWidth(value) {
+      // this.productsArray = this.products.filter((door) => door.width < value);
+      console.log('Width: ', value);
+      this.selectors.width = value;
+    },
+    selectHeight(value) {
+      // this.productsArray = this.products.filter((door) => door.height < value);
+      console.log('Height: ', value);
+      this.selectors.height = value;
+    },
+    selectAssembly(value) {
+      // this.productsArray = this.products.filter(
+      //   (door) => door.assemblyPosition === value
+      // );
+      console.log('Assemby: ', value);
+      this.selectors.assemblyPosition = value;
+    },
+    selectSelfHealing(value) {
+      // this.productsArray = this.products.filter(
+      //   (door) => door.selfHealing === value
+      // );
+      console.log('Self Healing??', value);
+      this.selectors.selfHealing = value;
+    },
+    selectStainlessSteel(value) {
+      // this.productsArray = this.products.filter(
+      //   (door) => door.stainlessSteel === value
+      // );
+      console.log('RVS???', value);
+      this.selectors.stainlessSteel = value;
+    },
+    selectWindLoad(value) {
+      // this.productsArray = this.products.filter(
+      //   (door) => door.windLoad === value
+      // );
+      console.log(('Wind Load: ', value));
+      this.selectors.windload = value;
+    },
+  },
+  // Get the initial data from a JSON file
   created() {
     axios
       .get('/test_data/products.json')
       .then((res) => {
-        self.products = res.data.doorTypes;
+        this.products = res.data.doorTypes;
+        this.productsArray = res.data.doorTypes;
       })
       .catch((err) => {
         console.log({ err });
@@ -44,27 +108,17 @@ export default {
   },
 };
 
-// function getData() {
-//   axios
-//     .get('/test_data/products.json')
-//     .then((res) => {
-//       console.log(res.data.doorTypes);
-//       self.products = res.data.doorTypes;
-//     })
-//     .catch((err) => {
-//       console.log({ err });
-//     });
-//   // const res = await fetch("/test_data/products.json");
-//   // const result = res.json();
-//   // console.log(result);
-//   // .then(res => {
-//   //   res.json();
-//   // })
-//   // .then(response => {
-//   //   console.log("DOOR TYPES: ", response);
-//   //   this.products = [];
-//   // });
-// }
+const filterResults = (current) => {
+  current.productsArray = current.products.filter((door) => {
+    door.type === current.selectors.type &&
+      door.width < current.selectors.width &&
+      door.height < current.selectors.height &&
+      door.assemblyPosition === current.selectors.assemblyPosition &&
+      door.selfHealing === current.selectors.selfHealing &&
+      door.stainlessSteel === current.selectors.stainlessSteel &&
+      door.windload === current.selectors.windload;
+  });
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
