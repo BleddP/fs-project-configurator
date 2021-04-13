@@ -1,20 +1,19 @@
 <template>
   <div>
-    <Header />
+    <ConfiguratorView />
   </div>
 </template>
 
 <script>
-import Header from "../components/static/header/Header";
+import ConfiguratorView from '../views/ConfiguratorView';
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
-    Header
-  }
+    ConfiguratorView,
+  },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-</style>
+<style scoped></style>

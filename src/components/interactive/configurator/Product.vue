@@ -1,26 +1,30 @@
 <template>
   <div class="product-card">
     <div class="flex">
-      <img
-        src="https://www.pngkey.com/png/detail/338-3381684_garage-door.png"
-        alt="Door"
-        width="100%"
-      />
+      <img :src="product.productImage" :alt="product.name" class="image" />
     </div>
     <div class="description">
-      <h5>{{ product.name }}</h5>
+      <h3>{{ product.name }}</h3>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-        officiis quos perspiciatis dolores dignissimos mollitia cum, nisi magnam
-        placeat nihil!
+        {{ product.descriptionShort }}
       </p>
+      <h5>Beschikbare kleuren:</h5>
+      <span class="colours" v-for="color in product.colors" :key="color">
+        {{ color }},
+      </span>
     </div>
     <div class="row">
-      <div class="col-4 flex-center-all ">
+      <div class="col-4 flex-center-all link">
         <h4 class="orange-text ">Meer Informatie</h4>
       </div>
       <div class="col-2 flex-center-all orange-bg">
-        <h4>Arrow</h4>
+        <h4>
+          <img
+            src="https://www.pngkit.com/png/full/79-790228_open-next-icon-white-png.png"
+            alt=""
+            height="20px"
+          />
+        </h4>
       </div>
     </div>
   </div>
@@ -51,5 +55,15 @@ export default {
 .description {
   border-top: 1px solid gray;
   padding: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+}
+
+.colours {
+  padding: 0px;
+  margin: 0px;
 }
 </style>

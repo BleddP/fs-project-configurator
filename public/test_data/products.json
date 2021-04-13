@@ -6,8 +6,8 @@
     {
       "productId": 1,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "B",
       "width": 1800,
       "height": 2500,
@@ -15,13 +15,13 @@
       "selfHealing": true,
       "stainlessSteel": true,
       "windLoad": 1,
-      "colors": ["black", "white"]
+      "colors": ["zwart", "wit"]
     },
     {
       "productId": 2,
       "name": "Novoferm",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Novoferm deuren zijn perfect voor kleine garages thuis en voor kleine bedrijven.",
+      "productImage": "https://images.unsplash.com/photo-1467385829985-2b0fb82b5193?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1651&q=80",
       "type": "B",
       "width": 1800,
       "height": 2500,
@@ -29,13 +29,13 @@
       "selfHealing": true,
       "stainlessSteel": true,
       "windLoad": 1,
-      "colors": ["black", "white"]
+      "colors": ["zwart", "wit"]
     },
     {
       "productId": 3,
       "name": "Novoferm",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Novoferm deuren zijn perfect voor kleine garages thuis en voor kleine bedrijven.",
+      "productImage": "https://images.unsplash.com/photo-1467385829985-2b0fb82b5193?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1651&q=80",
       "type": "B",
       "width": 1800,
       "height": 2500,
@@ -43,13 +43,13 @@
       "selfHealing": true,
       "stainlessSteel": true,
       "windLoad": 1,
-      "colors": ["black", "white"]
+      "colors": ["zwart", "wit"]
     },
     {
       "productId": 4,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "B",
       "width": 1800,
       "height": 2500,
@@ -57,13 +57,13 @@
       "selfHealing": true,
       "stainlessSteel": true,
       "windLoad": 1,
-      "colors": ["black", "white"]
+      "colors": ["zwart", "wit"]
     },
     {
       "productId": 5,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "B",
       "width": 1800,
       "height": 2500,
@@ -71,13 +71,13 @@
       "selfHealing": true,
       "stainlessSteel": true,
       "windLoad": 1,
-      "colors": ["black", "white"]
+      "colors": ["zwart", "wit"]
     },
     {
       "productId": 6,
       "name": "Porter",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Porter deuren zijn van industriele kwaliteit en geschikt voor grote warenhuizen.",
+      "productImage": "https://images.unsplash.com/photo-1446770489096-42e886ae2c9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "B",
       "width": 1800,
       "height": 2500,
@@ -85,13 +85,13 @@
       "selfHealing": true,
       "stainlessSteel": true,
       "windLoad": 1,
-      "colors": ["black", "white"]
+      "colors": ["zwart", "wit"]
     },
     {
       "productId": 7,
       "name": "Porter",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Porter deuren zijn van industriele kwaliteit en geschikt voor grote warenhuizen.",
+      "productImage": "https://images.unsplash.com/photo-1446770489096-42e886ae2c9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "B",
       "width": 1800,
       "height": 2500,
@@ -99,13 +99,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 1,
-      "colors": ["black", "white"]
+      "colors": ["zwart", "wit"]
     },
     {
       "productId": 8,
       "name": "Porter",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Porter deuren zijn van industriele kwaliteit en geschikt voor grote warenhuizen.",
+      "productImage": "https://images.unsplash.com/photo-1446770489096-42e886ae2c9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "B",
       "width": 1800,
       "height": 2500,
@@ -113,13 +113,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 1,
-      "colors": ["black", "white"]
+      "colors": ["zwart", "wit"]
     },
     {
       "productId": 9,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "B",
       "width": 1800,
       "height": 2500,
@@ -127,13 +127,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 8,
-      "colors": ["black", "white"]
+      "colors": ["zwart", "wit"]
     },
     {
       "productId": 10,
       "name": "Porter",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Porter deuren zijn van industriele kwaliteit en geschikt voor grote warenhuizen.",
+      "productImage": "https://images.unsplash.com/photo-1446770489096-42e886ae2c9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "B",
       "width": 1800,
       "height": 3000,
@@ -141,13 +141,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 2,
-      "colors": ["black", "white"]
+      "colors": ["zwart", "wit"]
     },
     {
       "productId": 11,
       "name": "Novoferm",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Novoferm deuren zijn perfect voor kleine garages thuis en voor kleine bedrijven.",
+      "productImage": "https://images.unsplash.com/photo-1467385829985-2b0fb82b5193?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1651&q=80",
       "type": "B",
       "width": 2000,
       "height": 3000,
@@ -155,13 +155,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 2,
-      "colors": ["black", "white"]
+      "colors": ["zwart", "wit"]
     },
     {
       "productId": 12,
       "name": "Angus",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Angus deuren zijn de absolute top en worden door het leger gebruikt.",
+      "productImage": "https://images.unsplash.com/photo-1609205943229-d7644dd5f3d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "B",
       "width": 2000,
       "height": 3000,
@@ -169,13 +169,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 2,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 13,
       "name": "Angus",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Angus deuren zijn de absolute top en worden door het leger gebruikt.",
+      "productImage": "https://images.unsplash.com/photo-1609205943229-d7644dd5f3d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "B",
       "width": 2000,
       "height": 3000,
@@ -183,13 +183,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 2,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 14,
       "name": "Angus",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Angus deuren zijn de absolute top en worden door het leger gebruikt.",
+      "productImage": "https://images.unsplash.com/photo-1609205943229-d7644dd5f3d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "B",
       "width": 2000,
       "height": 3000,
@@ -197,13 +197,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 3,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 15,
       "name": "Angus",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Angus deuren zijn de absolute top en worden door het leger gebruikt.",
+      "productImage": "https://images.unsplash.com/photo-1609205943229-d7644dd5f3d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "B",
       "width": 2000,
       "height": 3000,
@@ -211,13 +211,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 3,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 16,
       "name": "Angus",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Angus deuren zijn de absolute top en worden door het leger gebruikt.",
+      "productImage": "https://images.unsplash.com/photo-1609205943229-d7644dd5f3d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "B",
       "width": 2000,
       "height": 3000,
@@ -225,13 +225,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 3,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 17,
       "name": "Novoferm",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Novoferm deuren zijn perfect voor kleine garages thuis en voor kleine bedrijven.",
+      "productImage": "https://images.unsplash.com/photo-1467385829985-2b0fb82b5193?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1651&q=80",
       "type": "B",
       "width": 2000,
       "height": 3500,
@@ -239,13 +239,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 3,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 18,
       "name": "Novoferm",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Novoferm deuren zijn perfect voor kleine garages thuis en voor kleine bedrijven.",
+      "productImage": "https://images.unsplash.com/photo-1467385829985-2b0fb82b5193?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1651&q=80",
       "type": "B",
       "width": 2000,
       "height": 3500,
@@ -253,13 +253,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 3,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 19,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "A",
       "width": 2000,
       "height": 3500,
@@ -267,13 +267,13 @@
       "selfHealing": false,
       "stainlessSteel": true,
       "windLoad": 3,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 20,
       "name": "Porter",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Porter deuren zijn van industriele kwaliteit en geschikt voor grote warenhuizen.",
+      "productImage": "https://images.unsplash.com/photo-1446770489096-42e886ae2c9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "A",
       "width": 2000,
       "height": 3500,
@@ -281,13 +281,13 @@
       "selfHealing": true,
       "stainlessSteel": true,
       "windLoad": 5,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 21,
       "name": "Porter",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Porter deuren zijn van industriele kwaliteit en geschikt voor grote warenhuizen.",
+      "productImage": "https://images.unsplash.com/photo-1446770489096-42e886ae2c9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "A",
       "width": 2200,
       "height": 3500,
@@ -295,13 +295,13 @@
       "selfHealing": true,
       "stainlessSteel": true,
       "windLoad": 5,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 21,
       "name": "Porter",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Porter deuren zijn van industriele kwaliteit en geschikt voor grote warenhuizen.",
+      "productImage": "https://images.unsplash.com/photo-1446770489096-42e886ae2c9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "A",
       "width": 2200,
       "height": 3500,
@@ -309,13 +309,13 @@
       "selfHealing": true,
       "stainlessSteel": true,
       "windLoad": 5,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 22,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "A",
       "width": 2200,
       "height": 3500,
@@ -323,13 +323,13 @@
       "selfHealing": true,
       "stainlessSteel": true,
       "windLoad": 5,
-      "colors": ["black", "gray", "blue"]
+      "colors": ["zwart", "grijs", "blauw"]
     },
     {
       "productId": 23,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "A",
       "width": 2200,
       "height": 3500,
@@ -337,14 +337,14 @@
       "selfHealing": true,
       "stainlessSteel": true,
       "windLoad": 5,
-      "colors": ["black", "gray", "blue"]
+      "colors": ["zwart", "grijs", "blauw"]
     },
 
     {
       "productId": 24,
       "name": "Angus",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Angus deuren zijn de absolute top en worden door het leger gebruikt.",
+      "productImage": "https://images.unsplash.com/photo-1609205943229-d7644dd5f3d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "type": "A",
       "width": 2200,
       "height": 3500,
@@ -352,13 +352,13 @@
       "selfHealing": true,
       "stainlessSteel": true,
       "windLoad": 5,
-      "colors": ["black", "gray", "blue"]
+      "colors": ["zwart", "grijs", "blauw"]
     },
     {
       "productId": 25,
       "name": "Novoferm",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Novoferm deuren zijn perfect voor kleine garages thuis en voor kleine bedrijven.",
+      "productImage": "https://images.unsplash.com/photo-1467385829985-2b0fb82b5193?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1651&q=80",
       "type": "A",
       "width": 2200,
       "height": 4000,
@@ -366,13 +366,13 @@
       "selfHealing": true,
       "stainlessSteel": false,
       "windLoad": 5,
-      "colors": ["black", "gray", "blue"]
+      "colors": ["zwart", "grijs", "blauw"]
     },
     {
       "productId": 26,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "A",
       "width": 2200,
       "height": 4000,
@@ -380,13 +380,13 @@
       "selfHealing": true,
       "stainlessSteel": false,
       "windLoad": 6,
-      "colors": ["black", "gray", "blue"]
+      "colors": ["zwart", "grijs", "blauw"]
     },
     {
       "productId": 27,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "A",
       "width": 2200,
       "height": 4000,
@@ -394,13 +394,13 @@
       "selfHealing": false,
       "stainlessSteel": false,
       "windLoad": 6,
-      "colors": ["black", "gray", "blue"]
+      "colors": ["zwart", "grijs", "blauw"]
     },
     {
       "productId": 28,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "A",
       "width": 2600,
       "height": 4000,
@@ -408,13 +408,13 @@
       "selfHealing": false,
       "stainlessSteel": false,
       "windLoad": 6,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 29,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "A",
       "width": 2600,
       "height": 4000,
@@ -422,13 +422,13 @@
       "selfHealing": false,
       "stainlessSteel": false,
       "windLoad": 7,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 30,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "A",
       "width": 2600,
       "height": 4000,
@@ -436,13 +436,13 @@
       "selfHealing": false,
       "stainlessSteel": false,
       "windLoad": 7,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 31,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "A",
       "width": 2600,
       "height": 4000,
@@ -450,41 +450,41 @@
       "selfHealing": false,
       "stainlessSteel": false,
       "windLoad": 7,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 32,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "A",
       "width": 2600,
       "height": 4000,
       "assemblyPosition": "left",
       "selfHealing": false,
       "stainlessSteel": false,
-      "windLoad": 82,
-      "colors": ["black", "white", "gray", "blue"]
+      "windLoad": 8,
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 33,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "A",
       "width": 2600,
       "height": 4000,
       "assemblyPosition": "left",
       "selfHealing": false,
       "stainlessSteel": false,
-      "windLoad": 82,
-      "colors": ["black", "white", "gray", "blue"]
+      "windLoad": 8,
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     },
     {
       "productId": 34,
       "name": "Helix",
-      "descriptionShort": "",
-      "productImage": "",
+      "descriptionShort": "Onze Helix deuren staan voor topkwaliteit. Perfect voor commerciele garages.",
+      "productImage": "https://images.unsplash.com/photo-1494351416886-f6b4ed2a1d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1252&q=80",
       "type": "A",
       "width": 2600,
       "height": 4000,
@@ -492,7 +492,7 @@
       "selfHealing": false,
       "stainlessSteel": false,
       "windLoad": 1,
-      "colors": ["black", "white", "gray", "blue"]
+      "colors": ["zwart", "wit", "grijs", "blauw"]
     }
   ]
 }

@@ -10,8 +10,13 @@
         <li>Contact</li>
       </ul>
     </div>
-    <div class="col-1">
-      [FLAG]
+    <div class="col-1 mobile-disappear">
+      <img
+        src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/256/Netherlands-Flag-icon.png"
+        width="20px"
+        alt="NL-flag"
+        class="flag"
+      />
       <strong>NL</strong>
     </div>
   </div>
@@ -19,7 +24,7 @@
 
 <script>
 export default {
-  name: "Navbar"
+  name: 'Navbar',
 };
 </script>
 
@@ -32,15 +37,16 @@ export default {
 
 .orange-bg {
   background: orange;
-  height: 50px;
+  height: 100%;
+  min-height: 50px;
   display: flex;
   align-items: center;
   padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-li {
-  display: inline-block;
-  *display: inline;
-  padding-left: 10px;
+.flag {
+  margin-right: 10px;
 }
 </style>

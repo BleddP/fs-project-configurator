@@ -2,7 +2,7 @@
   <div class="row black-bg">
     <div class="col-5 flex">
       <ul class="menu-items">
-        <li>Home</li>
+        <li class="active">Home</li>
         <li>Configurator</li>
         <li>Industriedeuren</li>
         <li>Spare Parts</li>
@@ -10,13 +10,19 @@
         <li>Overige</li>
       </ul>
     </div>
-    <div class="col-1">Search</div>
+    <div class="col-1 mobile-disappear">
+      <img
+        src="https://lh3.googleusercontent.com/proxy/2M24-qxUjaReei49Eez_RG2uhXaLBZICxVpX2NwUh6nk6ylLFoV0T7lzjke3wpAE-XjOnZqP4Ojkmh6mupTpo6Cps6RiL9LFurGwyg"
+        width="30px"
+        alt=""
+      />
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Configurators"
+  name: 'Configurators',
 };
 </script>
 
@@ -28,17 +34,13 @@ export default {
 }
 .black-bg {
   background-color: black;
-  width: 100%;
-  height: 100px;
+  height: 100%;
+  min-height: 100px;
   color: #fff;
   display: flex;
   align-items: center;
   padding-left: 50px;
-}
-
-li {
-  display: inline-block;
-  *display: inline;
-  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 </style>

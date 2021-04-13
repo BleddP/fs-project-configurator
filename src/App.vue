@@ -1,23 +1,26 @@
 <template>
   <div id="app">
+    <Header />
     <Home />
-    <ConfiguratorView />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Home from "./views/Home";
-import ConfiguratorView from "./views/ConfiguratorView";
+import Home from './views/Home';
+import Header from './components/static/header/Header';
+import Footer from './components/static/Footer';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Home,
-    ConfiguratorView
-  }
+    Header,
+    Footer,
+  },
 };
 </script>
 
 <style>
-@import "../src/styles/css/globals.css";
+@import '../src/styles/css/globals.css';
 </style>

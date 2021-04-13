@@ -37,63 +37,110 @@ export default {
     return {
       products: [],
       productsArray: [],
-      selectors: {
-        type: 'A',
-        width: 2000,
-        height: 2000,
-        assemblyPosition: 'left',
-        selfHealing: true,
-        stainlessSteel: true,
-        windLoad: 4,
-      },
+      type: '',
+      width: 5000,
+      height: 5000,
+      assemblyPosition: '',
+      selfHealing: null,
+      stainlessSteel: null,
+      windLoad: null,
     };
   },
   methods: {
     selectDoorType(value) {
-      // const setFilter = this.products.filter((door) => door.type === value);
-      console.log('Door Type:', value);
-      this.selectors.type = value;
-      filterResults(this);
+      this.type = value;
+      this.filterResults();
     },
     selectWidth(value) {
-      // this.productsArray = this.products.filter((door) => door.width < value);
-      console.log('Width: ', value);
-      this.selectors.width = value;
+      this.width = value;
+      this.filterResults();
     },
     selectHeight(value) {
-      // this.productsArray = this.products.filter((door) => door.height < value);
-      console.log('Height: ', value);
-      this.selectors.height = value;
+      this.height = value;
+      this.filterResults();
     },
     selectAssembly(value) {
-      // this.productsArray = this.products.filter(
-      //   (door) => door.assemblyPosition === value
-      // );
-      console.log('Assemby: ', value);
-      this.selectors.assemblyPosition = value;
+      this.assemblyPosition = value;
+      this.filterResults();
     },
     selectSelfHealing(value) {
-      // this.productsArray = this.products.filter(
-      //   (door) => door.selfHealing === value
-      // );
-      console.log('Self Healing??', value);
-      this.selectors.selfHealing = value;
+      this.selfHealing = value;
+      this.filterResults();
     },
     selectStainlessSteel(value) {
-      // this.productsArray = this.products.filter(
-      //   (door) => door.stainlessSteel === value
-      // );
-      console.log('RVS???', value);
-      this.selectors.stainlessSteel = value;
+      this.stainlessSteel = value;
+      this.filterResults();
     },
     selectWindLoad(value) {
-      // this.productsArray = this.products.filter(
-      //   (door) => door.windLoad === value
-      // );
-      console.log(('Wind Load: ', value));
-      this.selectors.windload = value;
+      this.windLoad = value;
+      this.filterResults();
+    },
+    filterResults() {
+      const {
+        type,
+        width,
+        height,
+        assemblyPosition,
+        selfHealing,
+        stainlessSteel,
+        windLoad,
+      } = this;
+
+      /// Filter the room by door type
+      let byDoorType;
+      if (type !== '') {
+        byDoorType = this.products.filter((door) => door.type === type);
+      } else {
+        byDoorType = this.products;
+      }
+
+      /// Filter the door by width small than input value
+      const byWidth = byDoorType.filter((door) => width < door.width);
+
+      /// Filter the door by height smaller than the input value
+      const byHeight = byWidth.filter((door) => height < door.height);
+
+      let byAssemblyPosition;
+      if (assemblyPosition !== '') {
+        byAssemblyPosition = byHeight.filter(
+          (door) => door.assemblyPosition === assemblyPosition
+        );
+      } else {
+        byAssemblyPosition = byHeight;
+      }
+
+      let bySelfHealing;
+      if (selfHealing !== null) {
+        bySelfHealing = byAssemblyPosition.filter(
+          (door) => door.selfHealing === selfHealing
+        );
+      } else {
+        bySelfHealing = byAssemblyPosition;
+      }
+
+      let byStainlessSteel;
+      if (stainlessSteel !== null) {
+        byStainlessSteel = bySelfHealing.filter(
+          (door) => door.stainlessSteel === stainlessSteel
+        );
+      } else {
+        byStainlessSteel = bySelfHealing;
+      }
+
+      let byWindLoad;
+      if (windLoad !== 0) {
+        byWindLoad = byStainlessSteel.filter(
+          (door) => door.windLoad === windLoad
+        );
+      } else {
+        byWindLoad = byStainlessSteel;
+      }
+
+      const filteredResults = byWindLoad;
+      return (this.productsArray = filteredResults);
     },
   },
+
   // Get the initial data from a JSON file
   created() {
     axios
@@ -107,19 +154,6 @@ export default {
       });
   },
 };
-
-const filterResults = (current) => {
-  current.productsArray = current.products.filter((door) => {
-    door.type === current.selectors.type &&
-      door.width < current.selectors.width &&
-      door.height < current.selectors.height &&
-      door.assemblyPosition === current.selectors.assemblyPosition &&
-      door.selfHealing === current.selectors.selfHealing &&
-      door.stainlessSteel === current.selectors.stainlessSteel &&
-      door.windload === current.selectors.windload;
-  });
-};
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped></style>
