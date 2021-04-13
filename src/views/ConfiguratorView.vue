@@ -23,7 +23,6 @@ import ConfigQuestions from '../components/interactive/configurator/ConfigQuesti
 import ConfigResults from '../components/interactive/configurator/ConfigResults';
 import ConfigContact from '../components/interactive/configurator/ConfigContact';
 import axios from 'axios';
-// import products from "../../public/test_data/products.json";
 
 export default {
   name: 'ConfiguratorView',
@@ -94,12 +93,13 @@ export default {
         byDoorType = this.products;
       }
 
-      /// Filter the door by width small than input value
+      /// Filter the door by width
       const byWidth = byDoorType.filter((door) => width < door.width);
 
-      /// Filter the door by height smaller than the input value
+      /// Filter the door by height
       const byHeight = byWidth.filter((door) => height < door.height);
 
+      /// Filter the door by assembly left/right
       let byAssemblyPosition;
       if (assemblyPosition !== '') {
         byAssemblyPosition = byHeight.filter(
@@ -109,6 +109,7 @@ export default {
         byAssemblyPosition = byHeight;
       }
 
+      /// Filter the door by self-healing properties
       let bySelfHealing;
       if (selfHealing !== null) {
         bySelfHealing = byAssemblyPosition.filter(
@@ -118,6 +119,7 @@ export default {
         bySelfHealing = byAssemblyPosition;
       }
 
+      /// Filter the door by stainless-steel
       let byStainlessSteel;
       if (stainlessSteel !== null) {
         byStainlessSteel = bySelfHealing.filter(
@@ -127,6 +129,7 @@ export default {
         byStainlessSteel = bySelfHealing;
       }
 
+      /// Filter the door by windload
       let byWindLoad;
       if (windLoad !== 0) {
         byWindLoad = byStainlessSteel.filter(

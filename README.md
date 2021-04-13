@@ -6,7 +6,9 @@ Ben benieuwd wat je ervan vindt. Ik moet zeggen dat ik nog steeds op zoek ben na
 
 Ik kwam daarom een beetje in de knoop met de filter functie, omdat die gegevens via een `$emit` terug naar de parent component worden gestuurd. Ik denk dat het een stuk beter kan, maar dan moet ik even wat beter naar de structuur van Vue kijken.
 
-## Om hem op jullie machines te krijgen:
+Ook heb ik een klein Grid framework geschreven in SCSS om het responsive te krijgen. Ook een beetje rommelig, voor een production app zou dit beter gestructureerd moeten zijn, maar ik hoop dat jullie het idee een beetje krijgen.
+
+# Om hem op jullie machines te krijgen:
 
 ```
 gh repo clone BleddP/fs-project-configurator
